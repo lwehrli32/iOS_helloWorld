@@ -18,14 +18,6 @@ struct ContentView: View {
             }
         }
     }
-    
-    var footer: some View {
-        VStack(alignment: .bottom){
-            Button("Button 2"){
-                print("Button 2")
-            }
-        }
-    }
 }
 
 struct ContentView_Previews: PreviewProvider {
