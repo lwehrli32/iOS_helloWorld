@@ -17,6 +17,8 @@
 		C528773A279E5226008040D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5287710279E5213008040D5 /* ContentView.swift */; };
 		C528773B279E5226008040D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5287711279E5226008040D5 /* Assets.xcassets */; };
 		C528773C279E5226008040D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5287711279E5226008040D5 /* Assets.xcassets */; };
+		C5499E6B27A467BF009B01E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5499E6A27A467BF009B01E9 /* CircleImage.swift */; };
+		C5499E6C27A467BF009B01E9 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5499E6A27A467BF009B01E9 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		C528772F279E5226008040D5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5287733279E5226008040D5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C5287735279E5226008040D5 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C5499E6A27A467BF009B01E9 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				C528770F279E5213008040D5 /* HelloWorldApp.swift */,
 				C5287710279E5213008040D5 /* ContentView.swift */,
 				C5287711279E5226008040D5 /* Assets.xcassets */,
+				C5499E6A27A467BF009B01E9 /* CircleImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -301,6 +305,7 @@
 			files = (
 				C5287739279E5226008040D5 /* ContentView.swift in Sources */,
 				C5287737279E5226008040D5 /* HelloWorldApp.swift in Sources */,
+				C5499E6B27A467BF009B01E9 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				C528773A279E5226008040D5 /* ContentView.swift in Sources */,
 				C5287738279E5226008040D5 /* HelloWorldApp.swift in Sources */,
+				C5499E6C27A467BF009B01E9 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
