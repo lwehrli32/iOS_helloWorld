@@ -10,12 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center) {
-            Text("Hello, world!!")
+            Text("Turtle Rock")
                 .padding()
-            
-            Button("Button 1") {
-                print("Button 1")
-            }
+                .font(.title)
         }
     }
 }
